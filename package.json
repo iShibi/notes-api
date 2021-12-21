@@ -26,5 +26,13 @@
     "json-schema-to-ts": "^1.6.4",
     "prisma": "^3.6.0",
     "typescript": "^4.5.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iShibi/notes-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/iShibi/notes-api/issues"
+  },
+  "homepage": "https://github.com/iShibi/notes-api#readme"
 }
