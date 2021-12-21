@@ -1,0 +1,8 @@
+{
+  "[prisma]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "Prisma.prisma",
+  },
+  "typescript.preferences.quoteStyle": "single",
+  "typescript.preferences.importModuleSpecifierEnding": "js",
+}
