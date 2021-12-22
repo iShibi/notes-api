@@ -8,7 +8,9 @@ const prisma = new PrismaClient();
 
 export async function decorate(fastify: FastifyInstance) {
   fastify.decorate('prisma', prisma);
+
   fastify.decorateRequest('jwtPayload', null);
+
   fastify.decorate('verifyToken', async (request: FastifyRequest, reply: FastifyReply) => {
     const token = request.headers.authorization?.replace('Bearer ', '');
     if (!token) throw new Error('Provide a bearer token');

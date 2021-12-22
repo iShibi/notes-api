@@ -17,7 +17,7 @@ await register(fastify);
 
 const startServer = async () => {
   try {
-    const PORT = process.env['PORT'] ?? 3000;
+    const PORT = process.env['PORT'] ?? 3080;
     const address = await fastify.listen(PORT, '0.0.0.0');
     console.log(address);
   } catch (error) {
